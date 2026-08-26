@@ -1,0 +1,7 @@
+# モデル
+ollama/
+ollama/.ollama/
+
+# Open WebUIのユーザデータ・チャット履歴
+open-webui/
+open-webui/data/
