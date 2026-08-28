@@ -58,3 +58,12 @@ Ollama に Gemma モデルをダウンロード
 ```sh
 docker compose exec -it ollama ollama pull gemma4:e2b
 ```
+
+## Jenkins
+
+初期パスワード確認  
+初回は Jenkins の初期パスワードがログに出力される
+
+```sh
+docker compose logs jenkins | grep -A5 password
+```
