@@ -23,7 +23,7 @@ pipeline {
                     git remote -v
                     echo ""
                     echo "===== 最新コミット ====="
-                    git log -1 --online
+                    git log -1 --oneline
                     echo ""
                     echo "===== リポジトリ内のファイル（先頭20件）====="
                     ls -la | head -20
