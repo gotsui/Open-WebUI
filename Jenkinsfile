@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    options {
+    // options {
         // timestamps()
-    }
+    // }
 
     stages {
         stage('Checkout from GitHub') {
